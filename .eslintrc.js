@@ -7,7 +7,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
     "prettier/@typescript-eslint",
-    "react-app",
     "plugin:jsx-a11y/recommended",
     "plugin:jest-dom/recommended",
     "plugin:testing-library/recommended"
@@ -17,7 +16,7 @@ module.exports = {
     "project": "tsconfig.json",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "jsx-a11y", "testing-library", "jest-dom"],
+  plugins: ["@typescript-eslint", "jsx-a11y", "testing-library", "jest-dom"],
   rules: {
     "interface-name": 0,
     "no-console": 0,
