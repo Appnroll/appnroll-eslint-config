@@ -1,8 +1,8 @@
-{
-  "env": {
+module.exports = {
+  env: {
     "browser": true
   },
-  "extends": [
+  extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
@@ -12,13 +12,13 @@
     "plugin:jest-dom/recommended",
     "plugin:testing-library/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
     "project": "tsconfig.json",
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint", "jsx-a11y", "testing-library", "jest-dom"],
-  "rules": {
+  rules: {
     "interface-name": 0,
     "no-console": 0,
     "object-literal-sort-keys": 0,
