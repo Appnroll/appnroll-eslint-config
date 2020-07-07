@@ -1,5 +1,5 @@
 {
-  "name": "appnroll-eslint-config",
+  "name": "eslint-config-appnroll",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
