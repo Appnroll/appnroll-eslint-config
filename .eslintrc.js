@@ -27,7 +27,6 @@ module.exports = {
     "@typescript-eslint/no-empty-interface": 1,
     "@typescript-eslint/restrict-plus-operands": 1,
     "@typescript-eslint/ban-ts-comment": 0,
-    "react-hooks/exhaustive-deps": 1,
     "react-hooks/rules-of-hooks": 1,
     "@typescript-eslint/no-unsafe-assignment": 1,
     "@typescript-eslint/no-unsafe-member-access": 1,
