@@ -28,7 +28,7 @@ module.exports = {
     "react-hooks"
   ],
   rules: {
-    "jsx-boolean-value": ["warn", "always"],
+    "react/jsx-boolean-value": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/ban-types": "warn",
     "@typescript-eslint/no-empty-interface": "warn",
