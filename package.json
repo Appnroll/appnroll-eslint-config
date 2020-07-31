@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-appnroll",
+  "name": "@appnroll/eslint-config",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,17 +12,6 @@
   },
   "author": "appnroll",
   "license": "MIT",
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.2.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^3.2.0",
-    "@typescript-eslint/parser": "^3.2.0",
-    "eslint": "^7.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-react-app": "^5.2.1",
-    "eslint-plugin-jest-dom": "^3.0.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-testing-library": "^3.3.1"
-  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.2.0",
     "@typescript-eslint/eslint-plugin-tslint": "^3.2.0",
@@ -32,6 +21,8 @@
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-jest-dom": "^3.0.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "eslint-plugin-testing-library": "^3.3.1"
   }
 }
