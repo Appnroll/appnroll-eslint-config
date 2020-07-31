@@ -28,6 +28,8 @@ module.exports = {
     "react-hooks"
   ],
   rules: {
+    "react/display-name": "off",
+    "react/prop-types": "off",
     "react/jsx-boolean-value": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/ban-types": "warn",
