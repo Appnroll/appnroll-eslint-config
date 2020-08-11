@@ -59,5 +59,10 @@ module.exports = {
     "react/no-unescaped-entities": "warn",
     "react/jsx-no-target-blank": "warn",
     "jest-dom/prefer-enabled-disabled": "warn"
+  },
+  settings: {
+    "react": {
+      "version": "detect"
+    }
   }
 }
