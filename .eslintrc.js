@@ -28,6 +28,7 @@ module.exports = {
     "react-hooks"
   ],
   rules: {
+    "arrow-parens": "warn",
     "react/display-name": "off",
     "react/prop-types": "off",
     "react/jsx-boolean-value": "off",
