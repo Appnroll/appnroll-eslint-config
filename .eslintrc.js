@@ -50,6 +50,10 @@ module.exports = {
     "@typescript-eslint/await-thenable": "warn",
     "@typescript-eslint/require-await": "warn",
     "@typescript-eslint/prefer-regexp-exec": "warn",
+    "@typescript-eslint/camelcase": [
+      "error",
+      { "properties": "never", "ignoreDestructuring": true },
+    ],
     "no-async-promise-executor": "warn",
     "no-prototype-builtins": "warn",
     "no-extra-boolean-cast": "warn",
